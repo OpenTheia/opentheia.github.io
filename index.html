@@ -2,32 +2,38 @@
 layout: default
 ---
 
-<div class="header-container jumbotron">
-    <div class="container">
+<div class="front-page-header-container">
+    <div class="front-page-header">
         <h1>WatVision</h1>
         <p>An Open Source Project Bringing accessible technology to the touch screen domain.</p>
+        <a class="btn btn-primary" href="#info" role="button">Learn More</a>
+        <button type="button" class="btn btn-primary" disabled>Coming soon - get the App!</button>
     </div>
 </div>
 
+<canvas id=c>
+
+</canvas>
 
 <div class="container">
 
-    <div class="row">
+    <div class="row" id="info">
         <div class="col-md-6">
             <h2 class="header-light regular-pad">Our Goal
             </h2>
             <blockquote>
-              <p> <b>To create a product that will
-                    allow a visually impaired person to interact with any
-                    touch screen.</b> <br/>
-                  Touch screens are becoming more and more common in everyday life. Airplanes, 
-                  movie theatres, grocery stores, mall directories and more all use touch screens to 
-                provide services. Unfortunately these touch screens often do not have 
-                any accessible features for someone who is unable to clearly see 
-                all of its elements. In general touch screens aren't accessible to someone who is visually impaired,
-                and we aim to change that.
+                <p> <b>To create a product that will
+                        allow a visually impaired person to interact with any
+                        touch screen.</b> <br />
+                    Touch screens are becoming more and more common in everyday life. Airplanes,
+                    movie theatres, grocery stores, mall directories and more all use touch screens to
+                    provide services. Unfortunately these touch screens often do not have
+                    any accessible features for someone who is unable to clearly see
+                    all of its elements. In general touch screens aren't accessible to someone who is visually
+                    impaired,
+                    and we aim to change that.
                 </p>
-            </blockquote> <br/>
+            </blockquote> <br />
         </div>
         <div class="col-md-6 text-center">
             <div class="youtubeVidHolder">
@@ -38,46 +44,84 @@ layout: default
 
     <hr>
 
+    <h2 class="header-light regular-pad">Quick Background</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <blockquote>
+                <p>
+                    The OpenTheia project is a continuation of the WatVision project. This project aims to expand on
+                    the source code
+                    created in the the original.
+                    Originally this effort was part of a fourth year design project at the University of Waterloo.
+                    The original team has now all graduated and moved to different companies and locations in the
+                    world.
+                    Two of its members decided to continue the project under a new name: OpenTheia.
+                </p>
+            </blockquote>
+        </div>
+        <div class="col-md-6">
+            <blockquote class="text-center">
+                <p>WatVision's Website</p>
+            </blockquote>
+            <p class="text-center"><a class="btn btn-primary" href="https://watvision.github.io" role="button">WatVision
+                    Website</a></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <hr>
+
     <h2 class="header-light regular-pad">Current Status</h2>
     <div class="row">
-    <div class="col-md-6">
-        <blockquote>
-            <p>
-                Recently WatVision has become open source. The entirety of the source code is now available on Github under the MIT license. The goal 
-                for this change was to ensure that the technology would be available to any other developers who would want to
-                pursue this project further, or add accessibility to their own projects.
-            </p>
-        </blockquote>
-    </div>
-    <div class="col-md-6">
-        <blockquote class="text-center">
-            <p>View the Source Code Here:</p>
-        </blockquote>
-        <p class="text-center"><a class="btn btn-primary" href="https://github.com/watvision/Visionsystem" role="button">WatVision Source Code</a></p>
-    </div>
+        <div class="col-md-6">
+            <blockquote>
+                <p>
+                    The entirety of the code for the OpenTheia project is opensource and aims to stay that way.
+                    All issues and development will be recorded on Github.
+                    <br /> Currently, the team is working to release an app onto the Android app store.
+                    If you want to support us we are investigating machine learning and could always use more training
+                    data!
+                    Please send an email to: <a href="mailto:craigaloewen@gmail.com">craigaloewen@gmail.com</a> if you
+                    want
+                    to learn more.
+                </p>
+            </blockquote>
+        </div>
+        <div class="col-md-6">
+            <blockquote class="text-center">
+                <p>View the Source Code Here:</p>
+            </blockquote>
+            <p class="text-center"><a class="btn btn-primary" href="https://github.com/OpenTheia/opentheia" role="button">OpenTheia
+                    Source Code</a></p>
+        </div>
     </div>
 
     <hr>
 
     <h2 class="header-light regular-pad">Awards</h2>
+
     <div class="row">
         <div class="col-md-6">
             <blockquote>
                 <p>
-                    <a href="https://www.jamesdysonaward.org">The James Dyson Award</a> is an annual competition which has the goal:
-                    'design something that solves a problem'. This open ended Engineering Design award was made to encourage engineering, 
-                    and innovation. <br/> <br/>
-                    
-                    The WatVision team is incredibly proud to have won the James Dyson 2018 award at the <b>national level</b>.
-                    The WatVision design competed with different engineering solutions from all over Canada. <br/> <br/>
+                    <a href="https://www.jamesdysonaward.org">The James Dyson Award</a> is an annual competition which
+                    has the goal:
+                    'design something that solves a problem'. This open ended Engineering Design award was made to
+                    encourage engineering,
+                    and innovation. <br /> <br />
+
+                    The WatVision team is incredibly proud to have won the James Dyson 2018 award at the <b>national
+                        level</b>.
+                    The WatVision design competed with different engineering solutions from all over Canada. <br /> <br />
 
                     Here are a small selection of the articles written about this achievement:
                     <ul>
                         <li><a href="https://uwaterloo.ca/stories/engineering-students-project-captures-national-dyson-award-0">
-                            Engineering students’ project captures national Dyson award - University of Waterloo</a>
+                                Engineering students’ project captures national Dyson award - University of Waterloo</a>
                         </li>
                         <li><a href="https://www.kitchenertoday.com/local-news/waterloo-developed-app-that-helps-visually-impaired-wins-award-1035918">
-                            Waterloo developed app that helps visually impaired wins award - Kitchener Today</a>
+                                Waterloo developed app that helps visually impaired wins award - Kitchener Today</a>
                         </li>
                         <li>Please search for: 'WatVision James Dyson Award' if you want to learn more!
                         </li>
@@ -91,65 +135,67 @@ layout: default
         </div>
     </div>
     <div class="row">
+        <p>The original project that that this effort is a continuation of won multiple awards:</p>
         <div class="col-md-6">
             <div class="wide" style="background-image:url('/img/award.jpg');">
-            <div class="col-xs-4 line"><hr></div>
-            <div class="col-xs-4 logo">Most Innovative Award</div>
-            <div class="col-xs-4 line"><hr></div>
+                <div class="col-xs-4 line">
+                    <hr>
+                </div>
+                <div class="col-xs-4 logo">Most Innovative Award</div>
+                <div class="col-xs-4 line">
+                    <hr>
+                </div>
             </div>
         </div>
         <div class="col-md-6">
             <blockquote>
                 <p>
-                    The WatVision team presented at the University of Waterloo Mechatronics Symposium and won two awards: The General
-                    Motors Innovation award, and also 2nd place in the People's Choice award. <br/><br/>
-                    The team aims to ensure that this technology becomes available to as many people as possible in the future,
-                    and any further news will be posted on this site, or you can subscribe to be notified by email below. Stay tuned!
+                    The WatVision team presented at the University of Waterloo Mechatronics Symposium and won two
+                    awards: The General
+                    Motors Innovation award, and also 2nd place in the People's Choice award. <br /><br />
+                    The team aims to ensure that this technology becomes available to as many people as possible in the
+                    future,
+                    and any further news will be posted on this site, or you can subscribe to be notified by email
+                    below. Stay tuned!
                 </p>
             </blockquote>
         </div>
     </div>
-
-    <hr>
-
     <div class="row">
-        <div class="container">
-            <h5>Interested in this product? Subscribe for product updates!</h5>
-            <form id="form" target="_self" onsubmit="" action="">
-                <div class="form-group">
-                    <label>Email Address</label>
-                    <input type="email" class="form-control" id="emailinput" aria-describedby="emailHelp" placeholder="Enter email">
-                    <p class="text-muted">We'll never share your email with anyone else.</p>
-                </div>
-                <button id="send" class="btn btn-primary" type="submit">
-                    Send
-                </button>
-            </form>
-            <h5 id="subscribesuccess" style="display: none">Thank you! We'll be in touch :)</h5>
+        <div class="col-md-6">
+            <blockquote>
+                <p>
+                    The WatVision project was featured on SpringWise, a site that aims to promote
+                    and discover innovation.
+                    You can <a href="https://www.springwise.com/system-visually-impaired-touchscreens/">
+                        read the article about the project here.</a>
+                </p>
+            </blockquote>
+        </div>
+        <div class="col-md-6">
+            <div class="wide" style="background-image:url('/img/springwise.png');">
+            </div>
         </div>
     </div>
-
     <hr>
 
     <div class="row">
         <div class="col-sm-6">
             <h3 class="text-center">Who We Are</h3>
-            <p>The WatVision team is made up of 6 fourth year Mechatronics Engineering students from
-                the university of Waterloo. The team has a diverse background in different areas of technology
-                such as software, electrical and mechanical engineering concepts. <br/>
-                <p class="text-center"><a class="btn btn-primary" href="{% post_url 2017-11-08-meet-the-team %}" role="button">Meet The Team</a></p>
+            <p>The OpenTheia team is currently made up of two engineers. <a href="http://craigloewen.com">Craig Loewen</a>
+                and <a href="https://www.linkedin.com/in/lior-lustgarten-35a44382/">Lior Lustgarten</a>.
             </p>
         </div>
         <div class="col-sm-6">
             <h3 class="text-center">Contact Us</h3>
             <p>If you want to get in contact with the team you can email us at:
-                <a href='mailto:watvision.team@gmail.com'>watvision.team@gmail.com</a> <br/>
+                <a href='mailto:craigaloewen@gmail.com'>craigaloewen@gmail.com</a> <br />
                 We are happy to answer any questions about our project.
-                <p class="text-center"><a class="btn btn-primary" href="mailto:watvision.team@gmail.com" role="button">Email Us</a></p>
+                <p class="text-center"><a class="btn btn-primary" href="mailto:craigaloewen@gmail.com" role="button">Email
+                        Us</a></p>
             </p>
         </div>
     </div>
 
 
 </div>
-

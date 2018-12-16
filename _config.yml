@@ -1,13 +1,13 @@
 # Site settings
-title: WatVision
-email: watvision.team@gmail.com
+title: OpenTheia
+email: craigaloewen@gmail.com
 description: >
-  WatVision - Making Touchscreens Accessible
+  OpenTheia - Making Touchscreens Accessible
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://watvision.github.io # the base hostname & protocol for your site
-git_address: https://github.com/watvision/watvision.github.io
-git_edit_address: https://github.com/watvision/watvision.github.io
+url: https://OpenTheia.github.io # the base hostname & protocol for your site
+git_address: https://github.com/OpenTheia/OpenTheia.github.io
+git_edit_address: https://github.com/OpenTheia/OpenTheia.github.io
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap

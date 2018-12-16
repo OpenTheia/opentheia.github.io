@@ -1,0 +1,11 @@
+canvas{
+  top:0;
+  left:0;
+  background-color:black;
+  height:100vh;
+  margin-top: -23px;
+}
+
+#c {
+  width: 100%;
+}
